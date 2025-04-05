@@ -1,0 +1,50 @@
+body{
+    background-color: aliceblue;
+}
+.calc{
+    margin: 50px auto;
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    padding: 18px;
+    box-shadow: 4px 4px 4px grey;
+}
+
+.calc-screen{
+    height: 125px;
+    pad: 10px;
+    display: grid;
+    justify-self: end;
+    align-items: end;
+}
+.calc-screen p{
+    text-align: center;
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+.buttons{
+    display: grid;
+    grid-template-areas: 
+    "ac plus-minus percent devision"
+    "seven eight mine multiply"
+    "four five six minus"
+    "one two three plus"
+    "zero dot equel";
+    grid-gap: 7px;
+    justify-content: center;
+}
+
+.btn{
+    width: 60px;
+    height: 60px;
+    background-color: #333;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 60px;
+}
