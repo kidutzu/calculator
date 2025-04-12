@@ -4,7 +4,7 @@ body{
 .calc{
     margin: 50px auto;
     width: 300px;
-    height: 500px;
+    height: 470px;
     border-radius: 20px;
     background-color: black;
     color: white;
@@ -20,7 +20,7 @@ body{
     align-items: end;
 }
 .calc-screen p{
-    text-align: center;
+    text-align: right;
     font-size: 18px;
     margin: 0;
     margin-bottom: 25px;
@@ -33,7 +33,7 @@ body{
     "seven eight mine multiply"
     "four five six minus"
     "one two three plus"
-    "zero dot equel";
+    "zero zero dot equel";
     grid-gap: 7px;
     justify-content: center;
 }
@@ -47,4 +47,17 @@ body{
     text-align: center;
     border-radius: 50%;
     line-height: 60px;
+}
+.bt-orange{
+    background-color: orange;
+}
+.bt-grey{
+    background-color: grey;
+}
+.zero{
+    grid-area: zero;
+    width: 70%;
+    border-radius: 35px;
+    text-align: left;
+    padding-left: 40px;
 }
